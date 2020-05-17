@@ -1,8 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+
+// in the very beginning, install the below dependencies:
+/*
+(we'll make get request with API using axios)
+npm i --save axios @material-ui/core
+
+*/
+
 
 ReactDOM.render(
   <React.StrictMode>
